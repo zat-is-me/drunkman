@@ -18,9 +18,9 @@ public class DrunkMan {
 
          if (night >= day)//never climb up
              return -1;
-         else if (treeHieght <= day) {
+         else if (treeHieght <= day) {//this is his last climb
                 numberOfDays ++;
-                return numberOfDays;
+            return numberOfDays;
             }
          else {
              treeHieght -= day;//the climbing up will decrease remaining height of the tree
