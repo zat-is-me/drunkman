@@ -2,6 +2,7 @@ public class DrunkMan {
     //drunk man climb up on the tree on day time and fall down at night.
     //how many days will take to get to the top
     public static void main(String[] args) {
+        System.out.println ("Branch Demo");
        int solution =  drunkman(10,1,1);
        if (solution < 0){
            System.out.println ("He will never reach to the top of the tree ");
